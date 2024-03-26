@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 5%;
+  background-image: linear-gradient(rgba(0, 8, 51, 0.9), rgba(0, 8, 51, 0.9)),
+    url(https://www.bhmpics.com/downloads/wallpaper-thiet-ke/1.3b8ad2c7b1be2caf24321c852103598a-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.search-bar {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px, 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input {
+  background-color: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 24px;
+  font-size: 20px;
+  color: #cac7ff;
+}
+.search-icon {
+  position: relative;
+  right: 20px;
+  border-radius: 20px;
+}
+.heat img {
+  width: 200px;
+}
